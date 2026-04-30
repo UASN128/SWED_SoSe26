@@ -1,0 +1,18 @@
+6. Define the term software design. Explain how this differs 
+from software analysis.
+	Software design is the model and plan of what and how the program 
+should look like.
+	It differs from Software Analysis because the design is the next 
+step after establishing what the project requirements are.
+
+7. Explain why a software design is necessary for a software project. 
+Can you think of a project without this step? What could be the consequences?
+	The Design is of a project is important since it help keeping the big
+picture in mind when going after the different goals inside of the project.
+The only projects that can work without this step are small programs with little
+to no complexity in it's (non) design.
+
+8. Are the design activities of architectural design, database design, 
+user interface design and component design independent or interdependent? 
+Using an example, explain why. 
+	
