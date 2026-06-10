@@ -8,6 +8,12 @@ public class User {
 		this.ID = id;
 		this.name = name;
 	}
+	
+	public User(String name) {
+		int idNumber = 0;
+		this.ID = new ID(idNumber);
+		this.name = name;
+	}
 
 	public ID getID() {
 		return ID;

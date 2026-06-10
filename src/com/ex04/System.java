@@ -4,13 +4,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class System {
-	List<WebsiteSubscription> SubList;
+	List<WebsiteSubscription> subList;
+	List<User> userList;
 	
 	public System() {
-		this.SubList = new ArrayList<WebsiteSubscription>();
+		this.subList = new ArrayList<WebsiteSubscription>();
+		this.userList = new ArrayList<User>();
+	}
+
+	public List<User> getUserList() {
+		return userList;
 	}
 
 	public List<WebsiteSubscription> getSubList() {
-		return SubList;
+		return subList;
+	}
+	
+	public void addUser(String name) {
+		this.userList.add(new User(name));
 	}
 }
