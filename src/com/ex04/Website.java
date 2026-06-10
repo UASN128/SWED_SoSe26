@@ -8,6 +8,26 @@ public class Website {
 	String content;
 	Date lastChecked;
 	
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public Date getLastChecked() {
+		return lastChecked;
+	}
+
+	public void setLastChecked(Date lastChecked) {
+		this.lastChecked = lastChecked;
+	}
+
+	public String getURL() {
+		return URL;
+	}
+
 	Website(String URL, String content){
 		this.URL = URL;
 		this.content = content;

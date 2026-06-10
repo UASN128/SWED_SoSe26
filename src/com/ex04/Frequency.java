@@ -3,6 +3,9 @@ package com.ex04;
 public class Frequency {
 	int frequency;
 	
+	public Frequency() {
+		this.frequency = 0;
+	}
 	public Frequency(int f) {
 		this.frequency = f;
 	}

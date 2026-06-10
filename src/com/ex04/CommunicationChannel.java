@@ -3,6 +3,10 @@ package com.ex04;
 public class CommunicationChannel {
 	String communicationChannel;
 	
+	CommunicationChannel(){
+		this.communicationChannel = "";
+	}
+	
 	CommunicationChannel(String cc){
 		this.communicationChannel = cc;
 	}
