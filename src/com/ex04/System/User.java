@@ -1,4 +1,6 @@
-package com.ex04;
+package com.ex04.System;
+
+import com.ex04.Subscription.ID;
 
 public class User {
 	final ID ID;

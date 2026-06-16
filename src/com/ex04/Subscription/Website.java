@@ -1,4 +1,4 @@
-package com.ex04;
+package com.ex04.Subscription;
 
 import java.util.Date;
 // import java.text.SimpleDateFormat; // might be Usefull later

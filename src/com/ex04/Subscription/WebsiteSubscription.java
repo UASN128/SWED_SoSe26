@@ -1,4 +1,4 @@
-package com.ex04;
+package com.ex04.Subscription;
 
 public class WebsiteSubscription {
 	final ID id;
