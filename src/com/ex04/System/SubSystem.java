@@ -4,11 +4,11 @@ import com.ex04.Subscription.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class System {
+public class SubSystem {
 	List<WebsiteSubscription> subList;
 	List<User> userList;
 	
-	public System() {
+	public SubSystem() {
 		this.subList = new ArrayList<WebsiteSubscription>();
 		this.userList = new ArrayList<User>();
 	}
@@ -24,6 +24,10 @@ public class System {
 	public void addUser(String name) {
 		this.userList.add(new User(name));
 	}
+	public void addUser(User user) {
+		this.userList.add(user);
+	}
+	
 	
 	public void addWebsiteSubscription(
 			ID UID, Website website, NotificationPreference NP) {
