@@ -10,6 +10,7 @@ public class Observer {
 	public Observer(WebsiteSubscription WS) {
 		this.WS = WS;
 		copyWebsite();
+		WS.addObserver(this);
 	}
 	
 	public void copyWebsite() {

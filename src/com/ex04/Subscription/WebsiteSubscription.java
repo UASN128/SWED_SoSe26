@@ -1,10 +1,16 @@
 package com.ex04.Subscription;
 
+import com.ex04.System.Observer;
+
+import java.util.List;
+import java.util.ArrayList;
+
 public class WebsiteSubscription {
 	final ID id;
 	final ID userID;
 	final Website website;
 	NotificationPreference NP;
+	List<Observer> observers;
 	
 	public WebsiteSubscription(
 			ID userID, Website website,
@@ -14,8 +20,13 @@ public class WebsiteSubscription {
 		this.userID = userID;
 		this.website = website;
 		this.NP = NP;
+		this.observers = new ArrayList<Observer>();
 	}
-
+	
+	public void addObserver(Observer observer) {
+		this.observers.add(observer);
+	}
+	
 	public NotificationPreference getNP() {
 		return NP;
 	}
