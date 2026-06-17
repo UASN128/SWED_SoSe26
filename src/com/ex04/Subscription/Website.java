@@ -28,7 +28,7 @@ public class Website {
 		return URL;
 	}
 
-	Website(String URL, String content){
+	public Website(String URL, String content){
 		this.URL = URL;
 		this.content = content;
 		this.lastChecked = new Date();

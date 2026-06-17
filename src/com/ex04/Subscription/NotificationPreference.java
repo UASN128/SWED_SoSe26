@@ -4,7 +4,7 @@ public class NotificationPreference {
 	Frequency frequency;
 	CommunicationChannel CC;
 	
-	NotificationPreference(
+	public NotificationPreference(
 			Frequency freq, CommunicationChannel CC){
 		this.frequency = freq;
 		this.CC = CC;

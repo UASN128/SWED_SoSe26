@@ -3,11 +3,11 @@ package com.ex04.Subscription;
 public class CommunicationChannel {
 	String communicationChannel;
 	
-	CommunicationChannel(){
+	public CommunicationChannel(){
 		this.communicationChannel = "";
 	}
 	
-	CommunicationChannel(String cc){
+	public CommunicationChannel(String cc){
 		this.communicationChannel = cc;
 	}
 

@@ -3,7 +3,7 @@ package com.ex04.System;
 import com.ex04.Subscription.ID;
 
 public class User {
-	final ID ID;
+	final public ID ID;
 	final String name;
 	
 	public User(ID id, String name) {
