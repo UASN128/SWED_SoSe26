@@ -20,8 +20,11 @@ public class Main {
 						new Frequency(3),
 						new CommunicationChannel("TouYube"));
 		Website testSite = new Website("https://MooYube.fart", "gotem");
-		subby.addWebsiteSubscription(
-				Boiuser.getID(), testSite, NP);
+		WebsiteSubscription WS = 
+				new WebsiteSubscription(Boiuser.getID(), testSite, NP);
+		subby.addWebsiteSubscription(WS);
+		Observer testObserver = new Observer(WS);
+		testObserver.displayWebsite();
 	}
 	
 	public static void accessTestEntry(SubSystem subby) {

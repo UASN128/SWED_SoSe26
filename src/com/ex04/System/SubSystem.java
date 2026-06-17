@@ -34,6 +34,8 @@ public class SubSystem {
 		this.subList.add(
 				new WebsiteSubscription(
 						UID, website, NP));
-		
+	}
+	public void addWebsiteSubscription(WebsiteSubscription WS) {
+		this.subList.add(WS);
 	}
 }
