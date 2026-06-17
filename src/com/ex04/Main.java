@@ -25,6 +25,13 @@ public class Main {
 		subby.addWebsiteSubscription(WS);
 		Observer testObserver = new Observer(WS);
 		testObserver.displayWebsite();
+		testObserver.setStrat(new OSContent());
+		testObserver.checkForUpdate();
+		testObserver.setStrat(new OSUrl());
+		testObserver.checkForUpdate();
+		testObserver.setStrat(new OSContentSize());
+		testObserver.checkForUpdate();
+		
 	}
 	
 	public static void accessTestEntry(SubSystem subby) {
